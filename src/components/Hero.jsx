@@ -376,7 +376,7 @@ function Hero(){
   );
 };
 return (
-<section className="relative text-center bg-[#15171E] h-[573px] flex items-center justify-center bg-center bg-no-repeat bg-[length:100%_600px]" 
+<section className="relative text-center bg-[#15171E] h-[573px] flex items-center justify-center bg-no-repeat bg-left-top bg-[length:100_700px]"
 style={{backgroundImage:"url('https://task2onepagerwebsite1.vercel.app/assets/slide-WG9bbtGy.jpg')"}}>
   <div>
     <h1 className="text-white font-['Courier_New'] text-3xl sm:text-5xl md:text-6xl font-normal">
