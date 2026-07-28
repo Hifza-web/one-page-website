@@ -225,7 +225,7 @@
 
 // mari practice
 
-import { useState } from "react";
+import { useState, useEffect } from "react";
 
 function Navbar() {
   const [activeItem, setActiveItem] = useState("Home");
@@ -239,8 +239,15 @@ function Navbar() {
     "Blog",
     "Contact Us",
   ];
+  //   useEffect(() => {
+  //   const section = document.getElementById("services");
+
+  //   if (section) {
+  //     console.log(section);
+  //   }
+  // }, []);
   return (
-    <nav className="sticky top-0 z-50 w-full  bg-white py-4">
+    <nav className="sticky top-0 z-50 w-full  bg-white py-4 border-b border-gray-200">
       <div className="max-w-6xl  mx-auto flex items-center justify-between px-8">
         <img
           src="https://demoxml.com/html/onepager/images/logo.png"
