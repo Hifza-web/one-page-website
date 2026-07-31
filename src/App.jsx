@@ -5,6 +5,8 @@ import Services from "./components/Services";
 import Team from "./components/Team";
 import About from "./components/About";
 import Blog from "./components/Blog";
+import Contact from "./components/Contact";
+import Footer from "./components/Footer";
 
 
 function App() {
@@ -17,6 +19,10 @@ function App() {
       <Team/>
       <About/>
       <Blog/>
+      <Contact/>
+      <Footer/>
+
+
     </>
   );
 }
