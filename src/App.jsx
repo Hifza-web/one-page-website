@@ -12,8 +12,11 @@ import Footer from "./components/Footer";
 function App() {
   return (
     <>
+     <div className="overflow-x-hidden w-full max-w-[100vw]">
       <Hero />
+      </div>
       <Navbar />
+      <div className="overflow-x-hidden w-full max-w-[100vw]">
       <Portfolio />
       <Services />
       <Team/>
@@ -21,10 +24,11 @@ function App() {
       <Blog/>
       <Contact/>
       <Footer/>
-
+</div>
 
     </>
   );
 }
 
 export default App;
+

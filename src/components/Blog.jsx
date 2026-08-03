@@ -1,7 +1,8 @@
 import { FaClock, FaComment } from "react-icons/fa";
 function Blog() {
   return (
-    <section className="bg-white py-10">
+    <section id="blog"
+    className="bg-white py-10">
       <div className="mx-auto max-w-7xl px-8 text-center">
         <h1 className="font-['Courier_New'] text-[41px] font-bold uppercase leading-none">
           Latest Posts
