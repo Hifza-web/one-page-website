@@ -312,6 +312,7 @@
 
 // mari practice
 import { useState } from "react";
+import { FaChevronLeft, FaChevronRight } from "react-icons/fa";
 function Hero(){
   const slides=[
    {
@@ -376,8 +377,10 @@ function Hero(){
   );
 };
 return (
-<section className="relative text-center bg-[#15171E] h-[573px] flex items-center justify-center bg-no-repeat bg-left-top bg-[length:100_700px]"
-style={{backgroundImage:"url('https://task2onepagerwebsite1.vercel.app/assets/slide-WG9bbtGy.jpg')"}}>
+<section  id="home"
+className="relative text-center bg-[#15171E] h-screen flex items-center justify-center bg-no-repeat bg-center  bg-cover"
+style={{backgroundImage:"url('https://task2onepagerwebsite1.vercel.app/assets/slide-WG9bbtGy.jpg')"}}
+>
   <div>
     <h1 className="text-white font-['Courier_New'] text-3xl sm:text-5xl md:text-6xl font-normal">
      {slides[currentSlide].title}
@@ -394,20 +397,24 @@ style={{backgroundImage:"url('https://task2onepagerwebsite1.vercel.app/assets/sl
   onClick={prevSlide}
   className="absolute left-4 sm:left-8 md:left-16 top-1/2 -translate-y-1/2"
 >
-  <svg width="45" height="45" viewBox="0 0 45 45">
+  {/* <svg width="45" height="45" viewBox="0 0 45 45">
     <path
      d="M27 10L12 22.5L27 35V27H39V18H27V10Z"
       fill="white"
     />
-  </svg>
+  </svg> */}
+
+  <FaChevronLeft className="text-[40px] text-white" />
 </button>
   <button onClick={nextSlide} className="absolute right-4 sm:right-8 md:right-16 top-1/2 -translate-y-1/2">
-      <svg width="45" height="45" viewBox="0 0 45 45">
+      {/* <svg width="45" height="45" viewBox="0 0 45 45">
     <path
       d="M18 10L33 22.5L18 35V27H6V18H18V10Z"
       fill="white"
     />
-  </svg>
+  </svg> */}
+
+  <FaChevronRight className="text-[40px] text-white" />
 
   </button>
   </div>

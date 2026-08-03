@@ -7,7 +7,7 @@ import {
 } from "react-icons/fa";
 function Contact() {
   return (
-    <section id="contact" className="bg-[#262626] py-20 ">
+    <section id="contact" className="bg-[#262626] py-20 mt-14 ">
       <div className="mx-auto max-w-7xl px-8">
         <h1 className="font-['Courier_New'] text-[41px] font-bold uppercase text-white leading-none text-center mt-5">
           Get In Touch!
@@ -27,7 +27,7 @@ function Contact() {
 
             <p className="mt-3 whitespace-pre font-['Courier_New'] text-[16px] leading-7 text-white text-bold">
               {
-                "Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non\n"
+              "Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non\n"
               }
               {"mauris vitae erat consequat."}
             </p>
